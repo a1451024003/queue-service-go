@@ -1,0 +1,19 @@
+FROM registry.onemore.cc:5000/devops/golang-build:latest
+
+MAINTAINER Wang Xin wangxin@yundsm.com
+
+# Set ENV
+ENV SERVICE_VERSION 1.0
+ENV SERVICE_DIR /apps/service
+ENV SERVICE_DEVOPS test
+
+# Allow Composer to be run as root
+ENV COMPOSER_ALLOW_SUPERUSER 1
+
+COPY . ${SERVICE_DIR}
+WORKDIR ${SERVICE_DIR}
+
+RUN cp ./config/config.yaml.${SERVICE_DEVOPS} ./config/config.yaml
+
+ENTRYPOINT ["/apps/service/queue-service-go"]
+

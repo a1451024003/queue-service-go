@@ -1,0 +1,17 @@
+# 配置文件
+# conf:
+rpc: http://activity-go-test/rpc/activity
+rpc_group: http://group-go-test/rpc/news
+rpc_courseware: http://courseware-go-test/rpc/courseware
+rpc_group_subscribes: http://group-go-test/rpc/group
+rpc_onemore_notice: http://onemore-go-test/rpc/notice
+
+redis:
+  host: 172.17.65.183
+  port: 6379
+  sx_vote_list_name: sx:vote
+  group_list_name: gorup:pushCourseware    #group-service:推送课件
+  packtask_name: courseware:packtask       #打包任务
+  group_subscribes_name: group:subscribe   #group-service:订阅
+  onemore_notice_name: onemore:postSystem  #onemore-service:发布系统通知
+  

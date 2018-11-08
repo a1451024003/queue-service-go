@@ -1,0 +1,49 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "ochJai7DifamCfjDhMQGZYrqrDE=",
+			"path": "github.com/astaxie/beego/logs",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "2UmMbNHc8FBr98mJFN1k8ISOIHk=",
+			"path": "github.com/garyburd/redigo/internal",
+			"revision": "569eae59ada904ea8db7a225c2b47165af08735a",
+			"revisionTime": "2018-04-04T16:07:26Z"
+		},
+		{
+			"checksumSHA1": "3kM5bMyfqvdCfgQdOb01CR1aA74=",
+			"path": "github.com/garyburd/redigo/redis",
+			"revision": "569eae59ada904ea8db7a225c2b47165af08735a",
+			"revisionTime": "2018-04-04T16:07:26Z"
+		},
+		{
+			"checksumSHA1": "I4WqL9gxdKi86++FybOCaxONIcU=",
+			"path": "github.com/hprose/hprose-golang/io",
+			"revision": "bd05b81737d706b89357b69287dd2dd456f0b47e",
+			"revisionTime": "2018-04-26T11:53:24Z"
+		},
+		{
+			"checksumSHA1": "qPDxEQZcfyAVI2XfSl3jNqdq418=",
+			"path": "github.com/hprose/hprose-golang/rpc",
+			"revision": "bd05b81737d706b89357b69287dd2dd456f0b47e",
+			"revisionTime": "2018-04-26T11:53:24Z"
+		},
+		{
+			"checksumSHA1": "l8KL3p52ydvXeNnvhxm8RG8R0R8=",
+			"path": "github.com/hprose/hprose-golang/util",
+			"revision": "bd05b81737d706b89357b69287dd2dd456f0b47e",
+			"revisionTime": "2018-04-26T11:53:24Z"
+		},
+		{
+			"checksumSHA1": "ZSWoOPUNRr5+3dhkLK3C4cZAQPk=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "5420a8b6744d3b0345ab293f6fcba19c978f1183",
+			"revisionTime": "2018-03-28T19:50:20Z"
+		}
+	],
+	"rootPath": "queue-service-go"
+}

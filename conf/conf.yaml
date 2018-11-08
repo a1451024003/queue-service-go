@@ -1,0 +1,17 @@
+# 配置文件
+# conf:
+rpc: http://127.0.0.1/rpc/activity
+rpc_group: http://127.0.0.1/rpc/news
+rpc_group: http://127.0.0.1/rpc/courseware
+rpc_group_subscribes: http://127.0.0.1/rpc/group
+rpc_onemore_notice: http://192.168.1.188:8084/rpc/notice
+
+redis:
+  host: 192.168.1.15
+  port: 6379
+  sx_vote_list_name: sx:vote
+  group_list_name: gorup:pushCourseware   #group-service:推送课件
+  packtask_name: courseware:packtask
+  group_subscribes_name: group:subscribe   #group-service:订阅
+  onemore_notice_name: onemore:postSystem      #onemore-service:发布系统通知
+  
